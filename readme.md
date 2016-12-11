@@ -510,4 +510,4 @@ Node debug allow using console while debugging by triggering Repeat-Eval-Print-L
 
 ### Additional reference
  - [node-postgres-sequelize](http://mherman.org/blog/2015/10/22/node-postgres-sequelize/#.WEhtdXV95TA)
- - 
+ - [code base for this post](https://github.com/guyogev/express-ror-blog)
