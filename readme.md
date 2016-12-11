@@ -508,6 +508,15 @@ Node debug allow using console while debugging by triggering Repeat-Eval-Print-L
  - Note that by default, it stops on the first line of code. So hit `c` to continue.
  - When reaching a breakpoint type `repl` to allow terminal interaction.
 
+### Live Reload
+While developing, restarting the server on every code change is too time consuming.
+[Nodemon](https://github.com/remy/nodemon) allows server `live reload`
+
+```bash
+npm install --save-dev nodemon
+nodemon ./server/bin/www
+```
+
 ### Additional reference
  - [node-postgres-sequelize](http://mherman.org/blog/2015/10/22/node-postgres-sequelize/#.WEhtdXV95TA)
  - [code base for this post](https://github.com/guyogev/express-ror-blog)

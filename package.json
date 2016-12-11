@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "debug": "node-debug ./bin/www"
+    "debug": "node debug ./bin/www",
+    "start:dev": "nodemon ./server/bin/www"
   },
   "dependencies": {
     "body-parser": "~1.15.1",
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "express-livereload": "0.0.24",
-    "node-inspector": "0.12.8"
+    "node-inspector": "0.12.8",
+    "nodemon": "1.11.0"
   }
 }

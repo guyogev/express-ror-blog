@@ -37,7 +37,8 @@ function showOfficePets(res) {
 }
 
 router.get('/', function(req, res, next) {
-  showOfficePets(res);
+  showOffice(res)
+  // showOfficePets(res);
 });
 
 module.exports = router;
